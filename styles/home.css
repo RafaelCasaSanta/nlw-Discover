@@ -1,0 +1,49 @@
+.content{
+
+    display: grid;
+    /*  setar tamanho das colunas */
+    grid-template-columns: 60% 40%;
+    /*  Linhas laterais da pag (barreiras) */
+    grid-template-rows: 11.4rem 1fr ;
+    /*Ocupação de quadrantes*/
+    grid-template-areas: 'header header' 'left right';
+
+    }
+    header{
+        grid-area: header;
+          }
+
+    #bg{
+        grid-area: left;
+        background: url('/images/home-bg-img.svg') no-repeat top/contain;
+       }
+
+    main{
+        grid-area: right;
+        display: flex ;
+        align-items: center;
+        }
+
+main .container{
+
+ width: min(36.3rem 100%) ;
+
+}
+
+main h2{
+   font-family: 'Poppins', sans-serif;
+   color:  var(--black);
+   font-size: 2.8rem;
+   margin-bottom: 2.4rem;
+   }
+
+input{
+  border: .2rem solid var(--grey-blue);
+  padding: 0 1.6rem;
+  width: 100%;
+ margin-bottom: 20px;
+  
+}
+
+
+
