@@ -1,5 +1,5 @@
 *{
-  margin: 0;
+  margin: 0%;
   padding: 0%;
   border: none;
   text-decoration: none;
@@ -16,9 +16,11 @@ html{
      --overlay: #040911;
      --icons-details:#A5B0C1;
 
-     --grey-dark:#4D5E77;
+     --grey-dark:#4d5e77;
      --grey-blue:#A1B2CD;
      --grey-light:#E5EAF1;
+
+     --grey-medium: #eaecf2;
 
 
     font-size:   62.5% /* 10px */
@@ -89,7 +91,7 @@ button:hover, .button:hover{
   filter: brightness(1.2);
 }
 
-button > img
+button > img,
 .button > img {
 margin-right: 10px;
 
