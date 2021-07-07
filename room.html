@@ -12,6 +12,8 @@
     <!--CSS-->
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/room.css">
+    <link rel="stylesheet" href="styles/modal.css">
+
     <link href='https://css.gg/arrow-right-r.css' rel='stylesheet'>
 
     <!--FONTS-->
@@ -30,10 +32,10 @@
                 <img src="images/logo.svg" alt="Rocket-Q Logo" />
             </a>
             <div class="buttons">
-                <Div class="button outlined">
+                <div class="button outlined">
                     #3232435
                     <img src="images/copy.svg" alt="Copiar numero da sala">
-                </Div>
+                </div>
                 <a href="#" class="button">
                     <img src="images/users-white.svg" alt="Criar uma sala">Criar sala
                 </a>
@@ -44,7 +46,7 @@
 
             <section id="question-form">
                 <h2>Faça sua pergunta</h2>
-                <form action="">
+                <form action="#">
                     <label class="sr-only" for-id="question">O que você quer perguntar ?</label>
                     <textarea name="question " id="question" placeholder="O que vc quer perguntar ?"></textarea>
                     <footer>
@@ -107,7 +109,7 @@
                         </div>
                     </div>
 
-            
+
                     <div class="question-wrapper read">
                         <div class="question-content">
                             <div class="user">
@@ -118,7 +120,7 @@
                             </div>
                         </div>
                         <div class="actions">
-                            
+
                             <a href="#" class="delete">
                                 <img src="images/trash.svg" alt="Excluir">
                                 Excluir
@@ -133,7 +135,9 @@
                                 <img src="images/user.svg" alt="avatar">
                             </div>
                             <div class="question">
-                                <p>A ideia é implementar o sistema de monitoramento de mihn quang ao sistema de irrigação tridimensional de Batista 2017, mas com utilização de defensivos no lugar da irrigação</p>
+                                <p>A ideia é implementar o sistema de monitoramento de mihn quang ao sistema de
+                                    irrigação tridimensional de Batista 2017, mas com utilização de defensivos no lugar
+                                    da irrigação</p>
                             </div>
                         </div>
                         <div class="actions">
@@ -149,6 +153,27 @@
                         </div>
                     </div>
                 </div>
+    </div>
+
+    <!-- MODAL-->
+
+    <div class="modal-wrapper">
+        <div class="modal">
+            <h2>Excluir Pergunta</h2>
+            <P>Tem certeza que deseja excluir esta pergunta ?</P>
+
+            <form>
+                <label class="sr-only" for-id="password">Digite sua senha admin</label>
+                <input type="password" name="password" placeholder="Digite sua senha" />
+
+                <div class="buttons">
+                    <div class="button grey">Cancelar</div>
+                    <button class="red"> Sim, excluir</button>
+                </div>
+            </form>
+
+        </div>
+
     </div>
     </section>
     </main>
