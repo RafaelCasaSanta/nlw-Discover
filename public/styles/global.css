@@ -80,6 +80,8 @@ button,
   cursor: pointer;
 
   transition: filter 0.4s;
+
+  padding: 2.5rem 8rem;
 }
 
 button:hover,
